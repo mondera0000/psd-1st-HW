@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+
+    width: 1170px;
+    margin: auto;
+}
+
+body{
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav{
+
+    background-color: rgb(75, 6, 58);
+}
+nav .logo{
+    
+    width: 40%;
+}
+nav .menu{
+
+    width: 60%;
+}
+nav .menu ul{
+
+text-align: right;
+
+}
+nav .menu ul li{
+      
+    display: inline-block;
+
+}
+
+nav .menu ul li a{
+
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: blanchedalmond;
+    padding: 26px 25px;
+    display: inline-block;
+}
+#banner{
+      
+      height: 728px;
+      background-size: cover;
+      background-position: center;
+      background-image: url(../image/banner\ \(1\).jpg);
+      background-color:rgb(17, 54, 56);
+      background-blend-mode: multiply;
+      text-align: center;
+      color: blanchedalmond;
+}
+
+#banner.row{
+    align-items: center; 
+    height: 728px;
+}
+#banner .banner_cnt h2{
+
+     font-weight: 400;
+     font-size: 30px;
+}
+
+#banner .banner_cnt h1{
+
+    font-weight: 800;
+    font-size: 68px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+#banner .banner_cnt p{
+    font-size: 18px;
+    font-weight: 400;
+}
+#banner .banner_cnt img{
+
+    margin: 50px 0;
+}
+
+#banner .banner_cnt a{
+     
+    background-color: rgb(41, 211, 92);
+    color: rgb(20, 14, 4);
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
